@@ -1,0 +1,234 @@
+/*
+  File Name: App.css
+  Student's Name: [charmi patel]
+  Student ID: [301465756]
+  Date: [24/09/2024]
+ */
+
+nav {
+  display: flex;
+  justify-content: center;
+  padding: 30;
+  color:Black;
+  background-color:rgb(0, 102, 128);
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 1rem;
+}
+
+section {
+  padding: 2rem;
+  margin: 2rem;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/*Home*/
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: #666;
+}
+
+.home h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+  color: #3498db;
+}
+
+.home-buttons {
+  margin-top: 2rem;
+}
+
+.home-button {
+  background-color: #3498db;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0.5rem;
+}
+
+.home-button:hover {
+  background-color: #2980b9;
+}
+
+/*About*/
+.about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.about-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 1rem 0;
+  object-fit: cover;
+}
+
+.about-text {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.about-text p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+
+/*Project*/
+.projects {
+  padding: 50px;
+  text-align: center;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+  margin: 10px 0;
+}
+
+.project h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #555;
+  line-height: 1;
+}
+
+
+/*Services*/
+.services {
+  padding: 2rem;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.service-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.service-description {
+  color: #555;
+}
+
+/*Footer*/
+.footer {
+ 
+  color: blue;
+  text-align: right;
+  padding:  0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+.footer p {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.social-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0.5rem 0 0 0;
+  display: flex;
+  justify-content: right;
+}
+
+.social-links li {
+  margin: 0 1rem;
+}
+
+.social-links a {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
